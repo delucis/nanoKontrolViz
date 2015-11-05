@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 440.0, 44.0, 900.0, 706.0 ],
+		"rect" : [ 380.0, 44.0, 900.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -30,7 +30,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-8",
@@ -41,7 +40,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 464.0, 33.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 40.0, 16.0 ],
+					"presentation_rect" : [ -4.0, 45.0, 33.0, 16.0 ],
 					"text" : "#1",
 					"textcolor" : [ 0.355723, 0.39244, 0.424511, 1.0 ],
 					"textjustification" : 1
@@ -270,6 +269,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 405.0, 20.0, 20.0 ],
+					"pictures" : [ "nKV_record-arm.png", "nKV_record-arm.png" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 110.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -285,6 +285,7 @@
 ,
 					"text" : "R",
 					"texton" : "R",
+					"usepicture" : 1,
 					"varname" : "live.text[2]"
 				}
 
@@ -301,6 +302,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 315.0, 20.0, 20.0 ],
+					"pictures" : [ "nKV_mute.png", "nKV_mute.png" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 92.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -316,6 +318,7 @@
 ,
 					"text" : "M",
 					"texton" : "M",
+					"usepicture" : 1,
 					"varname" : "live.text[1]"
 				}
 
@@ -346,6 +349,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 225.0, 20.0, 20.0 ],
+					"pictures" : [ "nKV_solo.png", "nKV_solo.png" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 74.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -361,6 +365,7 @@
 ,
 					"text" : "S",
 					"texton" : "S",
+					"usepicture" : 1,
 					"varname" : "live.text"
 				}
 
@@ -670,13 +675,34 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-21" : [ "live.text[1]", "live.text", 0 ],
 			"obj-22" : [ "live.text[2]", "live.text", 0 ],
-			"obj-19" : [ "live.text", "live.text", 0 ],
-			"obj-1" : [ "#1-dial", "#1", 0 ]
+			"obj-21" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1" : [ "#1-dial", "#1", 0 ],
+			"obj-19" : [ "live.text", "live.text", 0 ]
 		}
 ,
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "nKV_solo.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/nanoKontrolViz/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nKV_mute.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/nanoKontrolViz/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nKV_record-arm.png",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/nanoKontrolViz/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }

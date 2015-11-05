@@ -9,7 +9,7 @@
 		}
 ,
 		"rect" : [ 521.0, 44.0, 241.0, 186.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"bgcolor" : [ 0.360784, 0.388235, 0.419608, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -392,8 +392,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 135.0, 83.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 0.0, 105.0, 22.0 ],
-					"text" : "43:1",
+					"presentation_rect" : [ 0.0, 4.0, 65.0, 22.0 ],
 					"textcolor" : [ 0.98, 0.99, 0.98, -0.24 ],
 					"textjustification" : 1
 				}

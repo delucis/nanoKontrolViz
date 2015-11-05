@@ -40,7 +40,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 464.0, 33.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -4.0, 45.0, 33.0, 16.0 ],
+					"presentation_rect" : [ -4.0, 42.0, 33.0, 16.0 ],
 					"text" : "#1",
 					"textcolor" : [ 0.355723, 0.39244, 0.424511, 1.0 ],
 					"textjustification" : 1
@@ -372,7 +372,11 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"bgcolor" : [ 0.168837, 0.180527, 0.245984, 1.0 ],
+					"border_bottom" : 0,
+					"border_left" : 0,
+					"border_right" : 0,
+					"border_top" : 0,
 					"bordercolor" : [ 0.252887, 0.278017, 0.300747, 1.0 ],
 					"id" : "obj-18",
 					"ignoreclick" : 1,
@@ -434,7 +438,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 195.0, 225.0, 25.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 15.0, 25.0, 23.0 ],
+					"presentation_rect" : [ 7.5, 9.0, 25.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
